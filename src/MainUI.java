@@ -3,6 +3,6 @@
  */
 public class MainUI {
     public static void main(String args[]){
-        System.out.println("Hello TicTacToe");
+        System.out.println("Hello TicTacToe!");
     }
 }
