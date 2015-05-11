@@ -4,6 +4,10 @@
 public class MainUI {
     public static void main(String args[]){
         System.out.println("Hello TicTacToe!");
-        new State().toString();
+//        int x [] = new int[10];
+//        System.out.println(x.length);
+        new Solver();
+
+        //new State().toString();
     }
 }
