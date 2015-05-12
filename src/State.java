@@ -8,7 +8,7 @@ public class State {
     Vector<State> childeren = new Vector<>();
     //Map
 
-    int bestValue;
+    int bestValue, alpha = -1000 , beta = 1000;
 
     String player;
 
@@ -45,7 +45,7 @@ public class State {
     }
 
     public State(State s, int row, int column) {
-        this.player = Constants.MIN;
+        this.player = s.player.equals(Constants.MAX)?Constants.MIN:Constants.MAX;
         bestValue = (player.equals(Constants.MAX))?-1000:1000;
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){

@@ -9,5 +9,10 @@ public class MainUI {
         new Solver();
 
         //new State().toString();
+//        int i;
+//        for(i = 0; i<10 ;i++){
+//            if(i==6)break;
+//        }
+//        System.out.println(i);
     }
 }
